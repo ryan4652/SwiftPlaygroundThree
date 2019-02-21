@@ -34,4 +34,11 @@ for myFavoriteNumbers in numbers {
     
 }
 
+//Part 9
 
+let removeNumber = numbers.remove(at:2)
+
+for removeNumber in numbers{
+    
+    print("My favorite number", removeNumber)
+}
